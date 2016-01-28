@@ -12,7 +12,7 @@ function_(x) {
 function renderQuestion(){
 	test = _("test");
 	if(pos >= questions.length){
-		test.innerHTML = "<h2>You got " + correct + " of " questions.length + " questions correct</h2>";
+		test.innerHTML = "<h2>You got " + correct + " of " + questions.length + " questions correct</h2>";
 		_("test_status").innerHTML = "Test Completed";
 		pos = 0;
 		correct = 0;
